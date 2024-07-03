@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2218F62B9056240006F80C /* fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2218F52B9056240006F80C /* fly.swift */; };
+		DF2218F82B9056CF0006F80C /* titlescene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2218F72B9056CF0006F80C /* titlescene.swift */; };
+		DF3E25222BC9B3940096693D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E25212BC9B3910096693D /* Assets.xcassets */; };
+		DF7E2EC62B51466A00576718 /* FlyKillerDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E2EC52B51466A00576718 /* FlyKillerDB.swift */; };
+		DF7E2EC82B5146AC00576718 /* Fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E2EC72B5146AC00576718 /* Fly.swift */; };
+		DF840FE22BA7B68D0039DF4B /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF840FE12BA7B68D0039DF4B /* GamePlayViewController.swift */; };
+		DFBCA7842B4FA4C5005DA75C /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBCA7832B4FA4C5005DA75C /* CustomizeViewController.swift */; };
+		DFBCA7862B4FAFB7005DA75C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBCA7852B4FAFB7005DA75C /* ShopViewController.swift */; };
+		DFBCFA4E2B4E74870010EB63 /* GameLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBCFA4D2B4E74870010EB63 /* GameLevelViewController.swift */; };
+		DFBEB0BF2B4A4900004B1C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0BE2B4A4900004B1C01 /* AppDelegate.swift */; };
+		DFBEB0C12B4A4900004B1C01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0C02B4A4900004B1C01 /* SceneDelegate.swift */; };
+		DFBEB0C32B4A4900004B1C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0C22B4A4900004B1C01 /* ViewController.swift */; };
+		DFBEB0C62B4A4900004B1C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEB0C42B4A4900004B1C01 /* Main.storyboard */; };
+		DFBEB0CB2B4A4901004B1C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEB0C92B4A4901004B1C01 /* LaunchScreen.storyboard */; };
+		DFBEB0D62B4A4902004B1C01 /* FlyKillerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0D52B4A4902004B1C01 /* FlyKillerGameTests.swift */; };
+		DFBEB0E02B4A4902004B1C01 /* FlyKillerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0DF2B4A4902004B1C01 /* FlyKillerGameUITests.swift */; };
+		DFBEB0EE2B4A5FF2004B1C01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB0ED2B4A5FF2004B1C01 /* FirstViewController.swift */; };
+		DFC7C97A2C037D9F00BBDB96 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC7C9792C037D9F00BBDB96 /* nextViewController.swift */; };
+		DFC99D042C11F2E30075401C /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC99D032C11F2E30075401C /* CustomViewController.swift */; };
+		E93880E3B6AA662A0B2CF58C /* Pods_FlyKillerGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98AC3EBEF06D3D3E3700A7 /* Pods_FlyKillerGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBEB0D22B4A4902004B1C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBEB0B32B4A4900004B1C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBEB0BA2B4A4900004B1C01;
+			remoteInfo = FlyKillerGame;
+		};
+		DFBEB0DC2B4A4902004B1C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBEB0B32B4A4900004B1C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBEB0BA2B4A4900004B1C01;
+			remoteInfo = FlyKillerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		875B32DD00AC7A7570D502B7 /* Pods-FlyKillerGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyKillerGame.debug.xcconfig"; path = "Target Support Files/Pods-FlyKillerGame/Pods-FlyKillerGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6D3035175E74484342D033 /* Pods-FlyKillerGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyKillerGame.release.xcconfig"; path = "Target Support Files/Pods-FlyKillerGame/Pods-FlyKillerGame.release.xcconfig"; sourceTree = "<group>"; };
+		DF2218F52B9056240006F80C /* fly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fly.swift; sourceTree = "<group>"; };
+		DF2218F72B9056CF0006F80C /* titlescene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titlescene.swift; sourceTree = "<group>"; };
+		DF3E25212BC9B3910096693D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DF7E2EC52B51466A00576718 /* FlyKillerDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyKillerDB.swift; sourceTree = "<group>"; };
+		DF7E2EC72B5146AC00576718 /* Fly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly.swift; sourceTree = "<group>"; };
+		DF840FE12BA7B68D0039DF4B /* GamePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+		DFBCA7832B4FA4C5005DA75C /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		DFBCA7852B4FAFB7005DA75C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		DFBCFA4D2B4E74870010EB63 /* GameLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelViewController.swift; sourceTree = "<group>"; };
+		DFBEB0BB2B4A4900004B1C01 /* FlyKillerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyKillerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBEB0BE2B4A4900004B1C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFBEB0C02B4A4900004B1C01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFBEB0C22B4A4900004B1C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFBEB0C52B4A4900004B1C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFBEB0CA2B4A4901004B1C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFBEB0CC2B4A4901004B1C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBEB0D12B4A4902004B1C01 /* FlyKillerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyKillerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBEB0D52B4A4902004B1C01 /* FlyKillerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyKillerGameTests.swift; sourceTree = "<group>"; };
+		DFBEB0DB2B4A4902004B1C01 /* FlyKillerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyKillerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBEB0DF2B4A4902004B1C01 /* FlyKillerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyKillerGameUITests.swift; sourceTree = "<group>"; };
+		DFBEB0ED2B4A5FF2004B1C01 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DFC7C9792C037D9F00BBDB96 /* nextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
+		DFC99D032C11F2E30075401C /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		FA98AC3EBEF06D3D3E3700A7 /* Pods_FlyKillerGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyKillerGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBEB0B82B4A4900004B1C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93880E3B6AA662A0B2CF58C /* Pods_FlyKillerGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0CE2B4A4902004B1C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0D82B4A4902004B1C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE02F2CF4526363E43D26DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				875B32DD00AC7A7570D502B7 /* Pods-FlyKillerGame.debug.xcconfig */,
+				9D6D3035175E74484342D033 /* Pods-FlyKillerGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		830CE694ACA4DA57F27FE497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA98AC3EBEF06D3D3E3700A7 /* Pods_FlyKillerGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7E2EC42B51463200576718 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF7E2EC52B51466A00576718 /* FlyKillerDB.swift */,
+				DF7E2EC72B5146AC00576718 /* Fly.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		DFBEB0B22B4A4900004B1C01 = {
+			isa = PBXGroup;
+			children = (
+				DF7E2EC42B51463200576718 /* DBManager */,
+				DFBEB0EC2B4A5FC0004B1C01 /* Controller */,
+				DFBEB0BD2B4A4900004B1C01 /* FlyKillerGame */,
+				DFBEB0D42B4A4902004B1C01 /* FlyKillerGameTests */,
+				DFBEB0DE2B4A4902004B1C01 /* FlyKillerGameUITests */,
+				DFBEB0BC2B4A4900004B1C01 /* Products */,
+				4EE02F2CF4526363E43D26DA /* Pods */,
+				830CE694ACA4DA57F27FE497 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBEB0BC2B4A4900004B1C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEB0BB2B4A4900004B1C01 /* FlyKillerGame.app */,
+				DFBEB0D12B4A4902004B1C01 /* FlyKillerGameTests.xctest */,
+				DFBEB0DB2B4A4902004B1C01 /* FlyKillerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBEB0BD2B4A4900004B1C01 /* FlyKillerGame */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEB0BE2B4A4900004B1C01 /* AppDelegate.swift */,
+				DFBEB0C02B4A4900004B1C01 /* SceneDelegate.swift */,
+				DFBEB0C22B4A4900004B1C01 /* ViewController.swift */,
+				DFBEB0C42B4A4900004B1C01 /* Main.storyboard */,
+				DFBEB0C92B4A4901004B1C01 /* LaunchScreen.storyboard */,
+				DF3E25212BC9B3910096693D /* Assets.xcassets */,
+				DFBEB0CC2B4A4901004B1C01 /* Info.plist */,
+			);
+			path = FlyKillerGame;
+			sourceTree = "<group>";
+		};
+		DFBEB0D42B4A4902004B1C01 /* FlyKillerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEB0D52B4A4902004B1C01 /* FlyKillerGameTests.swift */,
+			);
+			path = FlyKillerGameTests;
+			sourceTree = "<group>";
+		};
+		DFBEB0DE2B4A4902004B1C01 /* FlyKillerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEB0DF2B4A4902004B1C01 /* FlyKillerGameUITests.swift */,
+			);
+			path = FlyKillerGameUITests;
+			sourceTree = "<group>";
+		};
+		DFBEB0EC2B4A5FC0004B1C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEB0ED2B4A5FF2004B1C01 /* FirstViewController.swift */,
+				DFBCFA4D2B4E74870010EB63 /* GameLevelViewController.swift */,
+				DFBCA7832B4FA4C5005DA75C /* CustomizeViewController.swift */,
+				DFBCA7852B4FAFB7005DA75C /* ShopViewController.swift */,
+				DF2218F52B9056240006F80C /* fly.swift */,
+				DF2218F72B9056CF0006F80C /* titlescene.swift */,
+				DF840FE12BA7B68D0039DF4B /* GamePlayViewController.swift */,
+				DFC7C9792C037D9F00BBDB96 /* nextViewController.swift */,
+				DFC99D032C11F2E30075401C /* CustomViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBEB0BA2B4A4900004B1C01 /* FlyKillerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBEB0E32B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGame" */;
+			buildPhases = (
+				E35A29F91412E632CC119976 /* [CP] Check Pods Manifest.lock */,
+				DFBEB0B72B4A4900004B1C01 /* Sources */,
+				DFBEB0B82B4A4900004B1C01 /* Frameworks */,
+				DFBEB0B92B4A4900004B1C01 /* Resources */,
+				BA4029272CB4B468E73B88A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyKillerGame;
+			productName = FlyKillerGame;
+			productReference = DFBEB0BB2B4A4900004B1C01 /* FlyKillerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBEB0D02B4A4902004B1C01 /* FlyKillerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBEB0E62B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGameTests" */;
+			buildPhases = (
+				DFBEB0CD2B4A4902004B1C01 /* Sources */,
+				DFBEB0CE2B4A4902004B1C01 /* Frameworks */,
+				DFBEB0CF2B4A4902004B1C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBEB0D32B4A4902004B1C01 /* PBXTargetDependency */,
+			);
+			name = FlyKillerGameTests;
+			productName = FlyKillerGameTests;
+			productReference = DFBEB0D12B4A4902004B1C01 /* FlyKillerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBEB0DA2B4A4902004B1C01 /* FlyKillerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBEB0E92B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGameUITests" */;
+			buildPhases = (
+				DFBEB0D72B4A4902004B1C01 /* Sources */,
+				DFBEB0D82B4A4902004B1C01 /* Frameworks */,
+				DFBEB0D92B4A4902004B1C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBEB0DD2B4A4902004B1C01 /* PBXTargetDependency */,
+			);
+			name = FlyKillerGameUITests;
+			productName = FlyKillerGameUITests;
+			productReference = DFBEB0DB2B4A4902004B1C01 /* FlyKillerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBEB0B32B4A4900004B1C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DFBEB0BA2B4A4900004B1C01 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DFBEB0D02B4A4902004B1C01 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DFBEB0BA2B4A4900004B1C01;
+					};
+					DFBEB0DA2B4A4902004B1C01 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DFBEB0BA2B4A4900004B1C01;
+					};
+				};
+			};
+			buildConfigurationList = DFBEB0B62B4A4900004B1C01 /* Build configuration list for PBXProject "FlyKillerGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBEB0B22B4A4900004B1C01;
+			productRefGroup = DFBEB0BC2B4A4900004B1C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBEB0BA2B4A4900004B1C01 /* FlyKillerGame */,
+				DFBEB0D02B4A4902004B1C01 /* FlyKillerGameTests */,
+				DFBEB0DA2B4A4902004B1C01 /* FlyKillerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBEB0B92B4A4900004B1C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEB0CB2B4A4901004B1C01 /* LaunchScreen.storyboard in Resources */,
+				DF3E25222BC9B3940096693D /* Assets.xcassets in Resources */,
+				DFBEB0C62B4A4900004B1C01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0CF2B4A4902004B1C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0D92B4A4902004B1C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA4029272CB4B468E73B88A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyKillerGame/Pods-FlyKillerGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyKillerGame/Pods-FlyKillerGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyKillerGame/Pods-FlyKillerGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35A29F91412E632CC119976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyKillerGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBEB0B72B4A4900004B1C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEB0C32B4A4900004B1C01 /* ViewController.swift in Sources */,
+				DFC99D042C11F2E30075401C /* CustomViewController.swift in Sources */,
+				DF2218F62B9056240006F80C /* fly.swift in Sources */,
+				DFBCFA4E2B4E74870010EB63 /* GameLevelViewController.swift in Sources */,
+				DF2218F82B9056CF0006F80C /* titlescene.swift in Sources */,
+				DFBEB0BF2B4A4900004B1C01 /* AppDelegate.swift in Sources */,
+				DFBEB0C12B4A4900004B1C01 /* SceneDelegate.swift in Sources */,
+				DFBCA7862B4FAFB7005DA75C /* ShopViewController.swift in Sources */,
+				DFBCA7842B4FA4C5005DA75C /* CustomizeViewController.swift in Sources */,
+				DF7E2EC62B51466A00576718 /* FlyKillerDB.swift in Sources */,
+				DF7E2EC82B5146AC00576718 /* Fly.swift in Sources */,
+				DF840FE22BA7B68D0039DF4B /* GamePlayViewController.swift in Sources */,
+				DFC7C97A2C037D9F00BBDB96 /* nextViewController.swift in Sources */,
+				DFBEB0EE2B4A5FF2004B1C01 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0CD2B4A4902004B1C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEB0D62B4A4902004B1C01 /* FlyKillerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBEB0D72B4A4902004B1C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEB0E02B4A4902004B1C01 /* FlyKillerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBEB0D32B4A4902004B1C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBEB0BA2B4A4900004B1C01 /* FlyKillerGame */;
+			targetProxy = DFBEB0D22B4A4902004B1C01 /* PBXContainerItemProxy */;
+		};
+		DFBEB0DD2B4A4902004B1C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBEB0BA2B4A4900004B1C01 /* FlyKillerGame */;
+			targetProxy = DFBEB0DC2B4A4902004B1C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFBEB0C42B4A4900004B1C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBEB0C52B4A4900004B1C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFBEB0C92B4A4901004B1C01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBEB0CA2B4A4901004B1C01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFBEB0E12B4A4902004B1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBEB0E22B4A4902004B1C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBEB0E42B4A4902004B1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875B32DD00AC7A7570D502B7 /* Pods-FlyKillerGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyKillerGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBEB0E52B4A4902004B1C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6D3035175E74484342D033 /* Pods-FlyKillerGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyKillerGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFBEB0E72B4A4902004B1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyKillerGame.app/FlyKillerGame";
+			};
+			name = Debug;
+		};
+		DFBEB0E82B4A4902004B1C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyKillerGame.app/FlyKillerGame";
+			};
+			name = Release;
+		};
+		DFBEB0EA2B4A4902004B1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyKillerGame;
+			};
+			name = Debug;
+		};
+		DFBEB0EB2B4A4902004B1C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCVZBBNQP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.FlyKillerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyKillerGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBEB0B62B4A4900004B1C01 /* Build configuration list for PBXProject "FlyKillerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBEB0E12B4A4902004B1C01 /* Debug */,
+				DFBEB0E22B4A4902004B1C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBEB0E32B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBEB0E42B4A4902004B1C01 /* Debug */,
+				DFBEB0E52B4A4902004B1C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBEB0E62B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBEB0E72B4A4902004B1C01 /* Debug */,
+				DFBEB0E82B4A4902004B1C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBEB0E92B4A4902004B1C01 /* Build configuration list for PBXNativeTarget "FlyKillerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBEB0EA2B4A4902004B1C01 /* Debug */,
+				DFBEB0EB2B4A4902004B1C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBEB0B32B4A4900004B1C01 /* Project object */;
+}
